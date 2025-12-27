@@ -176,7 +176,8 @@ service CompteService {
 }
 ```
 
-image.png
+<img width="1955" height="1019" alt="image" src="https://github.com/user-attachments/assets/e067ca00-f538-4c6c-9afc-71b038ae24ec" />
+
 
 ### 2. Récupérer un compte par ID
 
@@ -201,7 +202,8 @@ image.png
 }
 ```
 
-image.png
+<img width="1962" height="750" alt="image" src="https://github.com/user-attachments/assets/f6556873-0880-40dd-b3da-8dae84c804b5" />
+
 
 ### 3. Obtenir les statistiques des soldes
 
@@ -223,7 +225,8 @@ image.png
 }
 ```
 
-image.png
+<img width="1960" height="772" alt="image" src="https://github.com/user-attachments/assets/05e0477a-874f-42d6-992d-8471b67e90d6" />
+
 
 ### 4. Créer un nouveau compte COURANT
 
@@ -252,7 +255,8 @@ image.png
 }
 ```
 
-image.png
+<img width="1965" height="767" alt="image" src="https://github.com/user-attachments/assets/995998e9-5dec-4a63-a52f-ee84f7dff7b3" />
+
 
 ### 5. Créer un nouveau compte EPARGNE
 
@@ -281,42 +285,8 @@ image.png
 }
 ```
 
-image.png
+<img width="1965" height="767" alt="image" src="https://github.com/user-attachments/assets/c43a7333-8515-49fb-97d8-02f486b95243" />
 
-### 6. Gestion d'erreur - Compte inexistant
-
-**Méthode RPC :** `CompteById`
-
-**Requête (BloomRPC) :**
-```json
-{
-  "id": "compte-inexistant"
-}
-```
-
-**Réponse (erreur) :**
-```
-Error: Compte non trouvé
-```
-
-![Capture d'écran - Erreur Compte non trouvé](screenshots/erreur-compte-inexistant.png)
-
-### 7. Test avec le client Java
-
-**Exécuter le client de test :**
-```bash
-mvn exec:java
-```
-
-Le client créera automatiquement deux comptes et affichera les résultats.
-
-![Capture d'écran - Client Java](screenshots/client-java.png)
-
-### 8. Interface BloomRPC
-
-Vue d'ensemble de l'interface BloomRPC avec le service chargé.
-
-![Capture d'écran - BloomRPC Interface](screenshots/bloomrpc-interface.png)
 
 ## 📁 Structure du projet
 
