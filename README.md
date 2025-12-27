@@ -61,9 +61,9 @@ Un service bancaire moderne développé avec Spring Boot et gRPC permettant la g
 
 ## 🚀 Installation
 
-### 1. Cloner le repository (si applicable)
+### 1. Cloner le repository
 ```bash
-git clone <votre-repository-url>
+git clone https://github.com/HaytamNajam26/TP18.git
 cd TP18
 ```
 
